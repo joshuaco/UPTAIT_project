@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: blueviolet;
+}
+
+.navbar__header {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    height: 100%; 
+    padding: 1.5em;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+.outline {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.outline:hover {
+    border-bottom: 3px solid #9867C5;
+}
+
