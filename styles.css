@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 body {
@@ -41,5 +42,40 @@ body {
 
 .outline:hover {
     border-bottom: 3px solid #9867C5;
+}
+
+.main {
+    padding: 1.5em;
+}
+
+.main__title {
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 10px 50px;
+}
+
+.main__grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.main__card {
+    display: flex;
+    background-color: rgb(207, 203, 203);
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    width: 300px;
+    height: 125px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 40%;
 }
 
