@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.login_container {
+    border: 1px solid blue;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 20px 50px;
+}
+
+.login_container h1 {
+    color: white;
+}
