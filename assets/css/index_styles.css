@@ -58,35 +58,69 @@ body {
 }
 
 .main {
-    padding: 1.5em;
+    display: flex;
+    margin-top: 2px;
 }
 
-.main__cards-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
+.main__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 2em;
+    width: 100%;
 }
 
 .main__card {
     display: flex;
-    background-color: rgb(207, 203, 203);
-    border-radius: 8px;
-    padding: 1em;
-    margin-bottom: 1.5em;
-    width: 300px;
-    height: 125px;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
     flex-direction: column;
+    position: relative;
+    padding: 20px;
+    width: 250px;
 }
 
-.main__card:hover {
-    background-color: rgb(180, 178, 178);
+.main__card-thumbnail {
+    position: relative;
+    height: 0;
+    padding-top: 56.333%;
 }
 
 .card-image {
-    width: 40%;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.main__card-body {
+    padding: 6px;
+    height: 75px;
+    border-radius: 0 0 8px 8px;
+}
+
+.main__card-body p {
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 3;
+}
+
+.blue-science {
+    background-color: #5f96d7;
+}
+
+.pink-science {
+    background: #ed1e79;
+}
+
+.orange-science {
+    background-color: #dd5342;
+}
+
+.yellow-science {
+    background-color: #ca9c05fb;
 }
 
 .footer {
