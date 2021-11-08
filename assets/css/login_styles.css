@@ -16,6 +16,7 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     height: 100vh;
     background-color: var(--background);
 }
@@ -25,6 +26,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--primary);
+    border-radius: 8px;
     color: var(--button-text);
     position: relative;
     padding: 3em 4em 4em;
@@ -42,14 +44,17 @@ label {
 }
 
 input[type = "text"] {
+    border: none;
+    border-radius: 5px;
     padding: .5rem;
-    margin-top: 1em;
+    margin-top: 1.5em;
     width: 20em;
 }
 
 input[type = "submit"] {
     border: none;
     background-color: var(--tertiary);
+    border-radius: 80px;
     color: var(--button-text);
     font-size: 18px;
     padding: 15px;
