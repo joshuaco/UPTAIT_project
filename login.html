@@ -9,31 +9,11 @@
 </head>
 
 <body>
-    <form action="./index.html" method="get">
-        <div class="login_container">
-            <h1>Login</h1>
-
-            <div class="form">
-                <div class="form__item">
-                    <i></i> <!-- Para añadir icono de usuario -->
-                    <label for="username">Ingresa tu nombre</label>
-                    <input type="text" placeholder="Tu nombre" name="username" id="username" size="40">
-                </div>
-
-                <div class="form__item">
-                    <label for="">¿Que grado estudias?</label>
-                    <select name="grado" id="grado">
-                        <option value="">Primer grado</option>
-                        <option value="">Segundo grado</option>
-                        <option value="">Tercer grado</option>
-                        <option value="">Cuarto grado</option>
-                        <option value="">Quinto grado</option>
-                        <option value="">Sexto grado</option>
-                    </select>
-                </div>
-            </div>
-
-            <button type="button">Entrar</button>
+    <form action="./index.html" class="form" method="get">
+        <div class="form__container">
+            <label for="username">Ingresa tu nombre</label>
+            <input type="text" autocomplete="off" autofocus name="username" id="username">
+            <input type="submit" value="Entrar">
         </div>
     </form>
 </body>

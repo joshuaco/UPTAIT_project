@@ -4,20 +4,57 @@
     padding: 0;
 }
 
+:root {
+    --background: #fffffe;
+    --card-background: #d1d1e9;
+    --card-heading: #2b2c34;
+    --headline: #2b2c34;
+    --primary: #6246ea;
+    --button-text: #fffffe;
+    --secondary: #d1d1e9;
+    --tertiary: #e45858;
+}
+
 body {
     height: 100vh;
+    background-color: var(--background);
 }
 
-.login_container {
-    border: 1px solid blue;
-    width: 30%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 15%;
-    background: #00000080;
-    padding: 20px 50px;
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--button-text);
+    position: relative;
+    padding: 3em 4em 4em;
+    margin: 150px auto;
+    width: 50%;
 }
 
-.login_container h1 {
-    color: white;
+.form__title {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+input[type = "text"] {
+    padding: .5rem;
+    margin-top: 1em;
+    width: 20em;
+}
+
+input[type = "submit"] {
+    border: none;
+    background-color: var(--tertiary);
+    color: var(--button-text);
+    font-size: 18px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    margin-top: 170px;
+    width: 10rem;
 }
