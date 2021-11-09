@@ -46,6 +46,7 @@ label {
 input[type = "text"] {
     border: none;
     border-radius: 5px;
+    font-size: 19px;
     padding: .5rem;
     margin-top: 1.5em;
     width: 20em;
@@ -60,6 +61,6 @@ input[type = "submit"] {
     padding: 15px;
     position: absolute;
     top: 0;
-    margin-top: 170px;
+    margin-top: 185px;
     width: 10rem;
 }
