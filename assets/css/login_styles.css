@@ -29,7 +29,7 @@ body {
     border-radius: 8px;
     color: var(--button-text);
     position: relative;
-    padding: 3em 4em 4em;
+    padding: 3em 4em 2em;
     margin: 150px auto;
     width: 50%;
 }
@@ -49,7 +49,7 @@ input[type = "text"] {
     font-size: 19px;
     padding: .5rem;
     margin-top: 1.5em;
-    width: 20em;
+    width: 15em;
 }
 
 input[type = "submit"] {
@@ -59,8 +59,6 @@ input[type = "submit"] {
     color: var(--button-text);
     font-size: 18px;
     padding: 15px;
-    position: absolute;
-    top: 0;
-    margin-top: 185px;
+    margin-top: 18px;
     width: 10rem;
 }
