@@ -48,6 +48,8 @@ body {
 
 .titlebox {
     border: solid black 1px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 1em;
 }
 
@@ -59,8 +61,10 @@ body {
 }
 
 .main {
+    border: solid black 1px;
     display: flex;
-    margin-top: 2px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .main__container {
@@ -68,7 +72,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 10px;
-    padding: 3em;
+    padding: 2em;
     width: 100%;
 }
 
@@ -122,6 +126,14 @@ body {
 
 .yellow-science {
     background-color: #ca9c05fb;
+}
+
+/* estilos palabras */
+
+.container {
+    border: solid black 1px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer {
