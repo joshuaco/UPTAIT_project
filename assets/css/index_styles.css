@@ -200,3 +200,8 @@ button {
     cursor: pointer;
     width: 100px;
 }
+
+.disabled {
+    background-color: rgb(129, 128, 128);
+    cursor: auto;
+}
