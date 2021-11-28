@@ -7,13 +7,13 @@ for (let i = 0; i < button.length; i++) {
     button[i].addEventListener('click', (e) => {
         if (button[i].classList.contains("correct")) {
             button[i].style.backgroundColor = "green";
-            score += 10;
+            score += 5;
             console.log(score);
         }
         else {
             button[i].style.backgroundColor = "red";
             if (score > 0) {
-                score -= 10;
+                score -= 2;
             }
             console.log(score);
         }
@@ -43,5 +43,10 @@ let getSiblings = (e) => {
 }
 
 const showScore = () => {
-    alert("Score: " + score);
+    if (score >= 10) {
+        alert("Felicidades tu puntuación es " + score + ", has ganado!");
+    }
+    else {
+        alert("Lo siento tu puntuación es " + score + ", has perdido!");
+    }
 }
