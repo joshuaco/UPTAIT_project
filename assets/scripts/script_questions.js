@@ -43,5 +43,5 @@ let getSiblings = (e) => {
 }
 
 const showScore = () => {
-    alert("Puntuación: " + score);
+    alert("Score: " + score);
 }
