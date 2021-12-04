@@ -172,14 +172,15 @@ button {
 }
 
 .questionbox__select {
-    
     border: solid 1px black;
+    min-width: 350px;
 }
 
 .questionbox__title {
     border: solid 1px black;
     flex-direction: row;
     margin: .5rem 0;
+    text-align: center;
 }
 
 .questionbox__buttons {

@@ -50,3 +50,9 @@ const showScore = () => {
         alert("Lo siento tu puntuación es " + score + ", has perdido!");
     }
 }
+
+//go back button
+const goBack = document.querySelector(".go-back");
+goBack.addEventListener('click', (e) => {
+    window.location.href = "index.html";
+});
