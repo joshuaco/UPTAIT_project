@@ -51,8 +51,6 @@ const showScore = () => {
     }
 }
 
-//go back button
-const goBack = document.querySelector(".go-back");
-goBack.addEventListener('click', (e) => {
-    window.location.href = "index.html";
-});
+const goBack = () => {
+    window.history.back();
+}

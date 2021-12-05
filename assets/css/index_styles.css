@@ -206,3 +206,13 @@ button {
     background-color: rgb(129, 128, 128);
     cursor: auto;
 }
+
+.go-back {
+    background-color: #e45858;
+    border: none;
+    border-radius: 8px;
+    color: #fffffe;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
