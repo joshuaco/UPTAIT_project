@@ -16,9 +16,21 @@
 }
 
 body {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
     height: 100vh;
     background-color: var(--background);
+}
+
+.container__escudo {
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    width: 300px;
+}
+
+.escudo {
+    width: 100%;
 }
 
 .form__container {
@@ -30,7 +42,7 @@ body {
     color: var(--button-text);
     position: relative;
     padding: 3em 4em 2em;
-    margin: 150px auto;
+    margin: 15px auto;
     width: 50%;
 }
 
