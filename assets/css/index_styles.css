@@ -190,6 +190,25 @@ button {
     border: solid 1px black;
 }
 
+.questionbox__operation {
+    display: flex;
+    border: 1px solid black;
+}
+
+.questionbox__img {
+    margin: auto 15px;
+    width: 200px;
+}
+
+.img {
+    width: 100%;
+}
+
+.questionbox__symbol {
+    font-size: 30px;
+    margin: auto 0;
+}
+
 .select-button {
     background-color: #e45858;
     border: none;
