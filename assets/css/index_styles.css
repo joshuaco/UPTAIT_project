@@ -45,6 +45,7 @@ button {
 
 .list-item {
     list-style-type: none;
+    margin: 0 15px;
 }
 
 .outline {
