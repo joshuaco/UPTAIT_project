@@ -245,6 +245,26 @@ button {
     margin: 1rem;
 }
 
+#top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #e45858;
+    color: #fffffe;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#top-button:hover {
+    background-color: #555;
+}
+
 /* Videos.html */
 
 .main-container {

@@ -54,3 +54,19 @@ const showScore = () => {
 const goBack = () => {
     window.history.back();
 }
+
+const topButton = document.querySelector("#top-button");
+
+window.onscroll = function () {scrollFunction()};
+
+const scrollFunction = () => {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+}
+
+const backToTop = () => {
+    window.scrollTo(0, 0);
+}
