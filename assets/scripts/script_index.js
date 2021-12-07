@@ -1,3 +1,7 @@
 const username = window.location.search.split('=')[1];
 
-document.querySelector('.title').innerHTML = `Hola ${username}!`;
+if (username !== undefined) {
+    document.querySelector('.title').innerHTML = `Hola ${username}!`;
+} else {
+    document.querySelector('.title').innerHTML = 'Hola!';
+}
