@@ -243,3 +243,20 @@ button {
     padding: 1rem;
     margin: 1rem;
 }
+
+/* Videos.html */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.main-container__video {
+    margin: 15px auto;
+}
+
+.video-theme {
+    width: 150px;
+    margin: 0 auto 15px;
+}
