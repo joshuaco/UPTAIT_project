@@ -62,16 +62,6 @@ const backToTop = () => {
     window.scrollTo(0, 0);
 }
 
-// Boton cerrar modal
-/* const closeButton = document.createElement("button");
-closeButton.setAttribute("id", "close-button");
-closeButton.innerHTML = "Cerrar";
-closeButton.addEventListener("click", () => {
-    dialogSuccess.close();
-    dialogFailed.close();
-});
-dialogSuccess.appendChild(closeButton); */
-
 const showScore = () => {
     const dialog = document.createElement("dialog");
     dialog.setAttribute("id", "dialog-score");
@@ -97,6 +87,4 @@ const showScore = () => {
         window.location.reload();
         });
     }
-    
-    console.log(dialog);
 }

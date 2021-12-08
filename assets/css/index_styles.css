@@ -148,6 +148,11 @@ button {
     width: 100%;
 }
 
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
 /* estilos palabras.html */
 
 .container {
