@@ -306,3 +306,9 @@ dialog[open] {
     width: 150px;
     margin: 0 auto 15px;
 }
+
+/* Canvas */
+
+#canvas {
+    border: solid black 1px;
+}
