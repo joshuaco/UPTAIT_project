@@ -83,12 +83,13 @@ const showScore = () => {
         dialog.firstElementChild.innerHTML += `<h3>Lo sentimos, tu puntuación es ${score}</h3>`;
         dialog.firstElementChild.innerHTML += `<button id="again-button">Intentar de nuevo</button>`;
     }
-    dialog.firstElementChild.innerHTML += `<button id="close-button">Cerrar</button>`;
+    dialog.firstElementChild.innerHTML += `<button id="close-button">Salir</button>`;
 
     document.body.appendChild(dialog);
     dialog.showModal();
     document.querySelector("#close-button").addEventListener("click", () => {
         dialog.close();
+        window.location.href = "index.html";
     });
     // if exists again button
     if (document.querySelector("#again-button")) {
