@@ -42,15 +42,6 @@ let getSiblings = (e) => {
     return siblings;
 }
 
-const showScore = () => {
-    if (score >= 10) {
-        alert("Felicidades tu puntuación es " + score + ", has ganado!");
-    }
-    else {
-        alert("Lo siento tu puntuación es " + score + ", has perdido!");
-    }
-}
-
 const goBack = () => {
     window.history.back();
 }
@@ -69,4 +60,42 @@ const scrollFunction = () => {
 
 const backToTop = () => {
     window.scrollTo(0, 0);
+}
+
+// Boton cerrar modal
+/* const closeButton = document.createElement("button");
+closeButton.setAttribute("id", "close-button");
+closeButton.innerHTML = "Cerrar";
+closeButton.addEventListener("click", () => {
+    dialogSuccess.close();
+    dialogFailed.close();
+});
+dialogSuccess.appendChild(closeButton); */
+
+const showScore = () => {
+    const dialog = document.createElement("dialog");
+    dialog.setAttribute("id", "dialog-score");
+    dialog.innerHTML = `<div class="modal-content"></div>`;
+
+    if (score >= 15) {
+        dialog.firstElementChild.innerHTML += `<h3>Felicidades! Tu puntuación es ${score}</h3>`;
+    } else {
+        dialog.firstElementChild.innerHTML += `<h3>Lo sentimos, tu puntuación es ${score}</h3>`;
+        dialog.firstElementChild.innerHTML += `<button id="again-button">Intentar de nuevo</button>`;
+    }
+    dialog.firstElementChild.innerHTML += `<button id="close-button">Cerrar</button>`;
+
+    document.body.appendChild(dialog);
+    dialog.showModal();
+    document.querySelector("#close-button").addEventListener("click", () => {
+        dialog.close();
+    });
+    // if exists again button
+    if (document.querySelector("#again-button")) {
+        document.querySelector("#again-button").addEventListener("click", () => {
+        window.location.reload();
+        });
+    }
+    
+    console.log(dialog);
 }

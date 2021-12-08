@@ -265,6 +265,26 @@ button {
     background-color: #555;
 }
 
+/* Modal abierto */
+dialog[open] {
+    position: fixed;
+    width: 50%;
+    max-width: 750px;
+    top: 30vh;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#close-button, #again-button {
+    border: none;
+    border-radius: 8px;
+    color: #fffffe;
+    outline: none;
+    padding: .5em;
+    background-color: #e45858;
+    margin: 1em 2em;
+}
+
 /* Videos.html */
 
 .main-container {
