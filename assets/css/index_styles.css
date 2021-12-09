@@ -15,7 +15,7 @@ button {
 }
 
 .navbar {
-    background-color: blueviolet;
+    background-color: #603EBB;
 }
 
 .navbar__header {
@@ -59,9 +59,10 @@ button {
 }
 
 .titlebox {
-    border: solid black 1px;
+    background-color: #9078ee88;
+    border-radius: 10px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 15px auto 0;
     padding: 1em;
 }
 
@@ -73,9 +74,10 @@ button {
 }
 
 .main {
-    border: solid black 1px;
+    background-color: #EAECFE;
+    border-radius: 10px;
     display: flex;
-    margin: 0 auto;
+    margin: 15px auto;
     max-width: 1200px;
 }
 
@@ -141,7 +143,7 @@ button {
 }
 
 .footer {
-    background-color: blueviolet;
+    background-color: #603EBB;
     color: white;
     padding: 1.5em;
     text-align: center;
@@ -156,19 +158,19 @@ button {
 /* estilos palabras.html */
 
 .container {
-    border: solid 1px black;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .question__section {
-    border: solid 1px black;
+    background-color: #9078ee88;
+    border-radius: 10px;
     padding: 1.5em;
+    max-width: 1200px;
 }
 
 .questionbox {
     display: flex;
-    border: solid 1px black;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 1rem;
@@ -176,7 +178,6 @@ button {
 }
 
 .imgbox {
-    border: solid 1px black;
     width: 320px;
 }
 
@@ -186,12 +187,12 @@ button {
 }
 
 .questionbox__select {
-    border: solid 1px black;
+    background-color: #EAECFE;
+    border-radius: 10px;
     min-width: 350px;
 }
 
 .questionbox__title {
-    border: solid 1px black;
     flex-direction: row;
     margin: .5rem 0;
     text-align: center;
@@ -201,12 +202,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px black;
 }
 
 .questionbox__operation {
     display: flex;
-    border: 1px solid black;
+    
 }
 
 .questionbox__img {
@@ -247,7 +247,7 @@ button {
     color: #fffffe;
     font-size: 1rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 1em 0;
 }
 
 #top-button {
