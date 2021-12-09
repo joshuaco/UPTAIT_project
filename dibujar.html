@@ -35,7 +35,19 @@
         </header>
     </div>
 
-    <canvas id="canvas"></canvas>
+    <section class="section-container">
+        <div id="toolbar">
+            <h1>Dibujar</h1>
+            <label for="stroke">Stroke</label>
+            <input type="color" name="stroke" id="stroke">
+            <label for="line-width">Grosor</label>
+            <input type="text" id="line-width" name="line-width" type="number" value="5">
+            <button id="clear">Limpiar</button>
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
 
     <footer class="footer">
         <p class="footer__contact">Realizado por los <a href="./estudiantes.html">Estudiantes</a> 
