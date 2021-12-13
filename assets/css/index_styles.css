@@ -371,3 +371,13 @@ dialog[open] {
     color: #fffffe;
     padding: 6px;
 }
+
+/* Estudiantes */
+.container__list-data {
+    background-color: #EAECFE;
+    margin: 5em;
+}
+
+.container__list-data li {
+    margin: 1em 0;
+}

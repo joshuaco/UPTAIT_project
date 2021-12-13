@@ -68,7 +68,7 @@ const showScore = () => {
     dialog.innerHTML = `<div class="modal-content"></div>`;
 
     if (score >= 15) {
-        dialog.firstElementChild.innerHTML += `<h3>Felicidades! Tu puntuación es ${score}</h3>`;
+        dialog.firstElementChild.innerHTML += `<h3>Felicidades! Tu puntuación es ${score}, haz superado la prueba!</h3>`;
     } else {
         dialog.firstElementChild.innerHTML += `<h3>Lo sentimos, tu puntuación es ${score}</h3>`;
         dialog.firstElementChild.innerHTML += `<button id="again-button">Intentar de nuevo</button>`;
